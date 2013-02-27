@@ -1,0 +1,28 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PlacesNavView",
+        "designer|initialView": true
+    },
+    "designerId": "4ad19afe-239c-4ab3-9edc-0d7da741ee7e",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Places App"
+            },
+            "designerId": "f317e42f-9c83-4c8d-836b-bc8c88264d7a",
+            "masterInstanceId": "ca470252-2e32-40a7-b174-c310478ded29"
+        }
+    ]
+}
