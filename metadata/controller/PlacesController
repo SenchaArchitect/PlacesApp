@@ -1,0 +1,73 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PlacesController"
+    },
+    "designerId": "36da8c7e-68b1-4cfa-8fc4-c456847ad8cf",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onSearchfieldKeyup",
+                "fn": "onSearchfieldKeyup",
+                "implHandler": [
+                    "var me = this;",
+                    "if (!me.task) {",
+                    "    ",
+                    "    me.geo = Ext.create('Ext.util.Geolocation', {",
+                    "        autoUpdate: false,",
+                    "        listeners: {",
+                    "            locationupdate: function(geo) {",
+                    "                var store = Ext.data.StoreManager.lookup('PlacesStore');",
+                    "                ",
+                    "                // our url is getJson.php, however we need to add some parameters to this url",
+                    "                var params = {",
+                    "                    key: 'AIzaSyDgGdSKp2BNo2TT-9Va3n9DRCz4ERqEcEE',",
+                    "                    location: geo.getLatitude()+','+geo.getLongitude(),",
+                    "                    radius: '10000',",
+                    "                    keyword: textfield.getValue(),",
+                    "                    sensor: true",
+                    "                };",
+                    "                ",
+                    "                store.load({",
+                    "                    url: 'getJson.php?key=' + params.key",
+                    "                    + '&location=' + params.location",
+                    "                    + '&radius=' + params.radius",
+                    "                    + '&sensor=' + params.sensor",
+                    "                    + '&keyword=' + params.keyword,",
+                    "                    ",
+                    "                    callback: function(records, operation, success) {",
+                    "                        //alert('loaded records: ' + success);",
+                    "                    },",
+                    "                    ",
+                    "                    scope: this",
+                    "                });            ",
+                    "            }",
+                    "        }",
+                    "    });",
+                    "",
+                    "    me.task = Ext.create('Ext.util.DelayedTask', function() {",
+                    "\t\tme.geo.updateLocation();",
+                    "    });",
+                    "}",
+                    "",
+                    "me.task.delay(500);"
+                ],
+                "name": "keyup",
+                "designer|targetType": "Ext.field.Search",
+                "designer|controlQuery": "placescontainer searchfield"
+            },
+            "designerId": "4eccb605-e503-4a64-a189-ebdd38521393"
+        }
+    ]
+}

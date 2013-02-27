@@ -1,0 +1,25 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "PlacesModel"
+        ],
+        "stores": [
+            "PlacesStore"
+        ],
+        "views": [
+            "PlacesNavView",
+            "PlacesContainer"
+        ],
+        "controllers": [
+            "PlacesController"
+        ],
+        "name": "PlacesApp"
+    },
+    "designerId": "application"
+}
