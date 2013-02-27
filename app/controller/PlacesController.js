@@ -36,7 +36,7 @@ Ext.define('PlacesApp.controller.PlacesController', {
 
                         // our url is getJson.php, however we need to add some parameters to this url
                         var params = {
-                            key: 'AIzaSyDgGdSKp2BNo2TT-9Va3n9DRCz4ERqEcEE',
+                            key: 'enter key here',
                             location: geo.getLatitude()+','+geo.getLongitude(),
                             radius: '10000',
                             keyword: textfield.getValue(),
