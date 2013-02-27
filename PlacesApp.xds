@@ -1,0 +1,93 @@
+{
+    "name": "PlacesApp",
+    "settings": {
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "http://localhost/placesapp",
+        "exportPath": "",
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 0,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000499,
+    "framework": "touch21",
+    "topInstanceFileMap": {
+        "fdc24650-c2c8-4d02-9981-bd245cc091c2": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "39c0a368-2c00-4cc5-896f-7982884a3b13": {
+            "paths": [
+                "metadata/store/PlacesStore",
+                "app/store/override/PlacesStore.js",
+                "app/store/PlacesStore.js"
+            ],
+            "className": "PlacesStore"
+        },
+        "ee9154f2-11e3-4d73-9b44-b4f40623fd25": {
+            "paths": [
+                "metadata/model/PlacesModel",
+                "app/model/override/PlacesModel.js",
+                "app/model/PlacesModel.js"
+            ],
+            "className": "PlacesModel"
+        },
+        "4ad19afe-239c-4ab3-9edc-0d7da741ee7e": {
+            "paths": [
+                "metadata/view/PlacesNavView",
+                "app/view/override/PlacesNavView.js",
+                "app/view/PlacesNavView.js"
+            ],
+            "className": "PlacesNavView"
+        },
+        "ca470252-2e32-40a7-b174-c310478ded29": {
+            "paths": [
+                "metadata/view/PlacesContainer",
+                "app/view/override/PlacesContainer.js",
+                "app/view/PlacesContainer.js"
+            ],
+            "className": "PlacesContainer"
+        },
+        "36da8c7e-68b1-4cfa-8fc4-c456847ad8cf": {
+            "paths": [
+                "metadata/controller/PlacesController",
+                "app/controller/override/PlacesController.js",
+                "app/controller/PlacesController.js"
+            ],
+            "className": "PlacesController"
+        },
+        "76d0b395-8edb-45c8-abca-130af36b3098": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "4ad19afe-239c-4ab3-9edc-0d7da741ee7e",
+            "ca470252-2e32-40a7-b174-c310478ded29"
+        ],
+        "store": [
+            "39c0a368-2c00-4cc5-896f-7982884a3b13"
+        ],
+        "controller": [
+            "36da8c7e-68b1-4cfa-8fc4-c456847ad8cf"
+        ],
+        "model": [
+            "ee9154f2-11e3-4d73-9b44-b4f40623fd25"
+        ],
+        "resource": [
+            "fdc24650-c2c8-4d02-9981-bd245cc091c2",
+            "76d0b395-8edb-45c8-abca-130af36b3098"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

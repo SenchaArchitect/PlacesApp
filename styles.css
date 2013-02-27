@@ -1,0 +1,13 @@
+.title {
+    float:left;
+}
+.rating_holder {
+    float:left;
+}
+.rating {
+    background: url('star_full.png') no-repeat;
+    float:      left;
+    height:     28px;
+    padding:    2px;
+    width:      32px;
+}
