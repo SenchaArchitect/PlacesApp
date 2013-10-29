@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "id",
-                "designer|userClassName": "field"
+                "name": "id"
             },
             "designerId": "9407d90b-c1d7-46fe-aa68-f8c2521b2ff6"
         },
@@ -31,8 +30,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "name",
-                "designer|userClassName": "field1"
+                "name": "name"
             },
             "designerId": "12ed25ee-a3e6-451b-a203-76e3457476fa"
         },
@@ -44,8 +42,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "rating",
-                "designer|userClassName": "field2"
+                "name": "rating"
             },
             "designerId": "0a4138fd-6da6-4cfa-8bc5-bdc8ff510d6c"
         }
