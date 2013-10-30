@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|controlQuery": "placescontainer searchfield",
-                "designer|targetType": "Ext.field.Search",
+                "designer|userClassName": "onSearchfieldKeyup",
                 "fn": "onSearchfieldKeyup",
                 "implHandler": [
                     "var me = this;",
@@ -64,7 +63,9 @@
                     "",
                     "me.task.delay(500);"
                 ],
-                "name": "keyup"
+                "name": "keyup",
+                "designer|targetType": "Ext.field.Search",
+                "designer|controlQuery": "placescontainer searchfield"
             },
             "designerId": "4eccb605-e503-4a64-a189-ebdd38521393"
         }

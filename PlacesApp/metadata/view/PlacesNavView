@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
-        "designer|userClassName": "PlacesNavView"
+        "designer|userClassName": "PlacesNavView",
+        "designer|initialView": true
     },
     "designerId": "4ad19afe-239c-4ab3-9edc-0d7da741ee7e",
     "cn": [

@@ -6,20 +6,20 @@
     },
     "codeClass": null,
     "userConfig": {
-        "controllers": [
-            "PlacesController"
-        ],
         "models": [
             "PlacesModel"
         ],
-        "name": "PlacesApp",
         "stores": [
             "PlacesStore"
         ],
         "views": [
             "PlacesNavView",
             "PlacesContainer"
-        ]
+        ],
+        "controllers": [
+            "PlacesController"
+        ],
+        "name": "PlacesApp"
     },
     "designerId": "application"
 }

@@ -8,9 +8,9 @@
     "userConfig": {
         "autoLoad": true,
         "autoSync": true,
-        "designer|userClassName": "PlacesStore",
         "model": "PlacesModel",
-        "storeId": "PlacesStore"
+        "storeId": "PlacesStore",
+        "designer|userClassName": "PlacesStore"
     },
     "designerId": "39c0a368-2c00-4cc5-896f-7982884a3b13",
     "cn": [
@@ -22,6 +22,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
                 "url": "getJson.php"
             },
             "designerId": "555835e0-f21f-4a3c-8f7f-1f8149470f64",
@@ -35,7 +36,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "idProperty": "id",
-                        "rootProperty": "results"
+                        "rootProperty": "results",
+                        "designer|userClassName": "MyJsonReader"
                     },
                     "designerId": "677f351f-6834-46f0-9eba-988703bd3a06"
                 }

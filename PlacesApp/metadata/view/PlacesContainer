@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "placescontainer",
         "designer|userClassName": "PlacesContainer",
+        "designer|userAlias": "placescontainer",
         "layout": "vbox"
     },
     "designerId": "ca470252-2e32-40a7-b174-c310478ded29",
@@ -20,6 +20,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|userClassName": "MySearchField",
                 "label": "Field"
             },
             "designerId": "216f7483-33a3-4287-9b58-20559aa8fed9"
@@ -33,6 +34,7 @@
             "codeClass": null,
             "userConfig": {
                 "layout|flex": 1,
+                "designer|userClassName": "MyList",
                 "store": "PlacesStore"
             },
             "designerId": "dd874999-bfda-482c-bf52-f6e34f2e99ed",
@@ -45,7 +47,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|displayName": "itemTpl",
+                        "designer|userClassName": "itemTpl",
                         "implHandler": [
                             "<div class=\"title\">",
                             "    {name}",
@@ -69,7 +71,8 @@
                             "        </tpl>",
                             "    </div>",
                             "</tpl>"
-                        ]
+                        ],
+                        "designer|displayName": "itemTpl"
                     },
                     "designerId": "d3cc5669-be58-4767-82ed-e5fea27fdc8f"
                 }
