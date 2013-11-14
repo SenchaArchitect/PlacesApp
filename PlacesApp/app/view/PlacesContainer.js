@@ -28,7 +28,7 @@ Ext.define('PlacesApp.view.PlacesContainer', {
         items: [
             {
                 xtype: 'searchfield',
-                label: 'Field'
+                label: 'Search'
             },
             {
                 xtype: 'list',

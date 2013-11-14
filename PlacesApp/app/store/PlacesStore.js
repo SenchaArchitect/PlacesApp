@@ -17,9 +17,9 @@ Ext.define('PlacesApp.store.PlacesStore', {
     extend: 'Ext.data.Store',
 
     requires: [
+        'PlacesApp.model.PlacesModel',
         'Ext.data.proxy.Ajax',
-        'Ext.data.reader.Json',
-        'PlacesApp.model.PlacesModel'
+        'Ext.data.reader.Json'
     ],
 
     config: {

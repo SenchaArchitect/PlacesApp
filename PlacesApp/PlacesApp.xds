@@ -1,7 +1,11 @@
 {
     "name": "PlacesApp",
     "settings": {
-        "cmd": {},
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.1.1.594"
+        },
         "spacesToIndent": 4,
         "lineEnding": "LF",
         "genTimestamps": false,
@@ -17,12 +21,14 @@
                 "width": 320
             },
             "viewportOrientation": "portrait"
-        }
+        },
+        "sdkPath": "",
+        "generateArchitectVersion": true
     },
     "xdsVersion": "3.0.0",
-    "xdsBuild": 0,
+    "xdsBuild": 1337,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000001,
+    "upgradeVersion": 300000000003,
     "framework": "touch21",
     "viewOrderMap": {
         "view": [

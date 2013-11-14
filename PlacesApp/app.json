@@ -1,0 +1,62 @@
+{
+   "name": "PlacesApp",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "path": "resources/css/app.css",
+         "update": "delta"
+      },
+      {
+         "path": "styles.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup",
+      "getJson.php"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "8e64710f-114b-4666-b823-643e231ad0db",
+   "_architect": {
+      "_comment": "Please don't edit. This is Architect data.",
+      "name": "PlacesApp",
+      "css": [
+         {
+            "path": "styles.css"
+         }
+      ],
+      "js": [],
+      "resources": [],
+      "requires": []
+   }
+}
